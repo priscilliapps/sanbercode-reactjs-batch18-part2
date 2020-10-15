@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import DaftarBuah from './Tugas-13/DaftarBuah';
 import Timer from './Tugas-11/Timer'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           </div>
           <button type="submit" value="Kirim" id="submit-button">Kirim</button>
         </div>
+        <DaftarBuah />
         <Timer />
       </div>
     </>
